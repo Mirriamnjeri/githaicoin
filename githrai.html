@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GITHRAICOIN</title>
+    <style>
+        body {
+            margin: 0;
+            overflow-y: scroll; /* Allow vertical scrolling */
+        }
+        .background-video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: -1;
+        }
+        .padding {
+            padding: 0;
+            margin: 0;
+        }
+        .card {
+            text-align: center;
+            margin: 20px auto;
+            width: 400px;
+            height: 200px;
+            border-radius: 150px / 100px;
+            overflow: hidden;
+            position: relative;
+            background-color: rgba(240, 240, 240, 0.8);
+            z-index: 1;
+            color: whitesmoke;
+        }
+        .card video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: 0;
+        }
+        .card img {
+            border-radius: 5px; /* Adjust border radius for rectangular shape */
+            width: 100%;
+            height: auto;
+            max-height: 150px; /* Limit image height */
+            object-fit: cover;
+            position: relative;
+            z-index: 1;
+        }
+        .card-text {
+            padding: 10px;
+        }
+        .icons {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 150px;
+            height: 50px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border-radius: 50px / 10px;
+            padding: 1px;
+            z-index: 1000;
+        }
+        .icons a {
+            text-decoration: none;
+            color: inherit;
+        }
+        .icons img {
+            width: 30px;
+            height: 30px;
+            border-radius: 30%;
+        }
+        .whitepaper-button {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            padding: 10px 20px;
+            border-radius: 20px;
+            background-color: rgba(240, 240, 240, 0.8);
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+            z-index: 1000;
+        }
+        h1 {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <video autoplay muted loop class="background-video">
+        <source src="videos/video8.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <div class="icons">
+        <a href="https://twitter.com" target="_blank">
+            <img src="pictures/picture11.png" alt="Twitter">
+        </a>
+        <a href="https://telegram.org" target="_blank">
+            <img src="pictures/telegram.jpg" alt="Telegram">
+        </a>
+        <a href="https://www.whatsapp.com" target="_blank">
+            <img src="pictures/whatsapp1.png" alt="WhatsApp">
+        </a>
+    </div>
+    <div class="padding">
+        <div class="card">
+            <video autoplay muted loop>
+                <source src="videos/video1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <img src="pictures/picture7.jpg" alt="Githrai Coin">
+            <h2>GITHRAI COIN</h2>
+        </div>
+    </div>
+    <center><h1 style="font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 80px;">THIS IS THE GTC</h1></center>
+
+    <button class="whitepaper-button">WHITEPAPER</button>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <img src="path_to_image.jpg" alt="Card Image">
+                <div class="card-text">
+                    <h3>Card 1 Title</h3>
+                    <p>Some text describing Card 1.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <img src="path_to_image.jpg" alt="Card Image">
+                <div class="card-text">
+                    <h3>Card 2 Title</h3>
+                    <p>Some text describing Card 2.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
